@@ -41,5 +41,13 @@ fn main() {
             println!("Cuenta Bloqueada");
             break;
         }
-    } 
+    }
+
+    //WHILE
+    //FOR
+    //Imprimir la tabla del 5. 5, 10, 15, 20.. etc. usar un "for" para que recorra hasta el 10, y multiplique x 5.
+    for i in 1..=10 {
+        println!("5 x {} = {}", i, 5*i);
+        println!("");
+    }
 }
